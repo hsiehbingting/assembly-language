@@ -1,0 +1,8 @@
+Q1：
+從https://web.tresorit.com/l/dABKF#Pdhq66jHuEpb4Ck36Tqzfw下載arm-cross-toolchain-linux-64.tar.gz (64-bit Linux），解壓縮到指定目錄。
+Q2：
+原始檔(.c)透過compiler產生目的檔(.o)再與相關目的碼、函數經linker結合產生執行檔(.exe)，
+exe檔可直接執行
+Q3：
+O0不進行優化，編譯時用記憶體與時間較少
+O3進行優化，編譯所用記憶體與時間較多，編譯產生的檔案也較小
